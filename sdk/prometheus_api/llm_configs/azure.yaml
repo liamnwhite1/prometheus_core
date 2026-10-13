@@ -1,0 +1,36 @@
+model_list:
+  - model_name: default
+    litellm_params:
+      model: gpt-5.4-mini
+      api_key: os.environ/OPENAI_API_KEY
+      api_base: https://aoai-eastus2-pad.openai.azure.com/openai/v1
+
+  - model_name: small
+    litellm_params:
+      model: gpt-5.4-mini
+      api_key: os.environ/OPENAI_API_KEY
+      api_base: https://aoai-eastus2-pad.openai.azure.com/openai/v1
+
+  - model_name: medium
+    litellm_params:
+      model: gpt-5.4-mini
+      api_key: os.environ/OPENAI_API_KEY
+      api_base: https://aoai-eastus2-pad.openai.azure.com/openai/v1
+
+  - model_name: large
+    litellm_params:
+      model: gpt-5.4-mini
+      api_key: os.environ/OPENAI_API_KEY
+      api_base: https://aoai-eastus2-pad.openai.azure.com/openai/v1
+
+  - model_name: vision
+    litellm_params:
+      model: gpt-5.4-mini
+      api_key: os.environ/OPENAI_API_KEY
+      api_base: https://aoai-eastus2-pad.openai.azure.com/openai/v1
+
+  - model_name: embedding
+    litellm_params:
+      model: gpt-5.4-mini
+      api_key: os.environ/OPENAI_API_KEY
+      api_base: https://aoai-eastus2-pad.openai.azure.com/openai/v1

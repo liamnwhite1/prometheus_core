@@ -25,6 +25,7 @@ LLM_CONFIG_PROFILES = (
     "anthropic",
     "openai",
     "anl_asksage",
+    "azure",
 )
 
 
